@@ -12,8 +12,8 @@ module.exports = {
   theme: {
     colors: {
       primary: "#161825",
-
       secondary: "#fe9901",
+      third: "#efefef"
     },
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
@@ -27,7 +27,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/img/banner2.jpg')",
         "banner-img": "url('/img/banner2.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "banner-img1": "url('/img/choose_bg.jpg')",
       },
     },
   },
