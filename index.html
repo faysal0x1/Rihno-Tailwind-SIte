@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font  Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Css -->
+
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="font-poppins">
+    <!-- =========================== Contact Navbar ============================ -->
+
+    <div class="bg-primary text-white flex py-2">
+      <div class="container flex items-center justify-between">
+        <!-- Contact -->
+        <div class="flex text-sm">
+          <i class="fa-sharp fa-solid fa-phone ml-5 mr-3"></i>
+          <span class="">Call : +01 12345678909</span>
+        </div>
+
+        <!-- Social Icon -->
+
+        <div class="flex gap-3">
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <!-- Gmail Link -->
+        <div class="flex">
+          <i class="fa-sharp fa-solid fa-phone ml-5 mr-3"></i>
+          <a href="" class="hover:text-secondary hover:bg-secondary">demo@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================== Contact Navbar End============================ -->
+
+    <div class="px-6 bg-banner-img h-[40rem]">
+      <!-- =============================== NavBar ================================ -->
+      <nav class="bg-white border-gray-200 sm:px-4 py-2.5 rounded text-4xl flex px-5 w-[80%] mx-auto">
+        <div class="flex justify-between items-center">
+          <a class="uppercase font-bold text-lg hover:text-green-800 text-green-800" href="/"
+            >SAGARS <span class="font-bold text-green-800 uppercase">Rhino</span></a
+          >
+        </div>
+
+        <div class="container flex flex-wrap justify-ce items-center ml-[15rem]">
+          <!-- <a href="https://flowbite.com/" class="flex items-center"> -->
+          <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> -->
+          <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Rhino</span> -->
+          <!-- </a> -->
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
+                01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1
+                0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Seectiion -->
+      <div class="container pt-6 pb-5 mt-16 ml-9">
+        <h1 class="text-white text-[100px] font-bold">We Are Builders</h1>
+        <p class="text-white w-[60%]">
+          There are many variations of passages of Lorem Ipsum available, but the majority There are many variations of
+          passages of
+        </p>
+
+        <!-- Contact Button -->
+
+        <a
+          href=""
+          class="capitalize bg-secondary w-[100%] rounded-md px-4 max-w-[278px] block text-lg text-center py-2 mt-5"
+          >CONTACT US</a
+        >
+      </div>
+      <!-- =============================== NavBar End ================================ -->
+    </div>
+
+    <!-- Service Section -->
+
+    <div class="container grid grid-cols-3 relative top-[-10px] gap-4">
+      <!-- Service  1 -->
+      <div
+        class="p-9 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="flex items-center justify-center ml-5">
+          <img src="img/ser1.png" class="" alt="" />
+        </div>
+        <h2 class="uppercase font-semibold mt-5 text-center text-lg">Construction Service</h2>
+      </div>
+      <!-- Service  2 -->
+
+      <div
+        class="p-9 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="flex items-center justify-center ml-5">
+          <img src="img/ser2.png" class="" alt="" />
+        </div>
+        <h2 class="uppercase font-semibold mt-5 text-center text-lg">ReConstruction</h2>
+      </div>
+      <!-- Service  3 -->
+
+      <div
+        class="p-9 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <div class="flex items-center justify-center ml-5">
+          <img src="img/ser3.png" class="" alt="" />
+        </div>
+        <h2 class="uppercase font-semibold mt-5 text-center text-lg">Electrical Service</h2>
+      </div>
+    </div>
+
+    <!-- Service Section End -->
+
+    <!-- About Section -->
+    <div class="container py-6 mt-16 grid grid-cols-3 gap-4">
+      <!-- First Column -->
+      <div class="col-span-2 w-[85%]">
+        <h2 class="text-4xl font-semibold my-6">About Our Company</h2>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available,
+          but the majority have suffered alteration in some form, by injected humour, or randomised
+        </p>
+
+        <a
+          href=""
+          type="button"
+          class="text-white bg-primary hover:bg-secondary mt-10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-base px-6 py-3.5 text-center block w-[30%] dark:focus:ring-blue-800"
+        >
+          Extra large
+        </a>
+      </div>
+      <!-- Image Column -->
+
+      <div class="col-span-1">
+        <img src="img/about.png" alt="" />
+      </div>
+    </div>
+    <!-- About Section End -->
+    <script src="node_modules/flowbite/dist/flowbite.js"></script>
+  </body>
+  <!-- <script src="flowbite/dist/flowbite.js"></script> -->
+</html>
